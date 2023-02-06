@@ -1,3 +1,0 @@
-{
-    "/:userName\\?id:id": "/users/:id"
-}

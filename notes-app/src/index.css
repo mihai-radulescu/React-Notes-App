@@ -66,3 +66,21 @@ code {
 .search input:focus {
 	outline: none;
 }
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.settings {
+	background-color: #e1e1e1;
+	border: none;
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px;
+}
+
+.settings:hover {
+	background-color: #ededed;
+	cursor: pointer;
+}
