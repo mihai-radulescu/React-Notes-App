@@ -1,38 +1,42 @@
 {
-    "users": [{"id": 1}, {"id": 2}],
-
-    "user-data": [{
-        "user-id": 1,
-        "userName": "mihai",
-        "password": "1234"
+  "users": [
+    {
+      "id": 1
     },
     {
-        "user-id": 2,
-        "userName": "simo",
-        "password": "9876"
+      "id": 2
     }
-],
-
-    "notes": [
-        {
-            "id": 1,
-            "userid": 1,
-            "text": "Hello there!",
-            "date": "02/02/2023"
-        },
-
-        {
-            "id": 2,
-            "userid": 2,
-            "text": "Hello simo",
-            "date": "06/02/2023"
-        },
-
-        {
-            "id": 3,
-            "userid": 1,
-            "text": "General Kenobi!",
-            "date": "06/02/2023"
-        }
-    ]
+  ],
+  "user-data": [
+    {
+      "user-id": 1,
+      "userName": "mihai",
+      "password": "1234"
+    },
+    {
+      "user-id": 2,
+      "userName": "simo",
+      "password": "9876"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "userid": 1,
+      "text": "Hello there!",
+      "date": "02/02/2023"
+    },
+    {
+      "id": 2,
+      "userid": 2,
+      "text": "Hello simo",
+      "date": "06/02/2023"
+    },
+    {
+      "id": 3,
+      "userid": 1,
+      "text": "General Kenobi!",
+      "date": "06/02/2023"
+    }
+  ]
 }
