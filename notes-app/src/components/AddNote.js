@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const AddNote = ({ handleAddNote }) => {
+const AddNote = ({ handleAddNote, showInfo }) => {
 	const [noteText, setNoteText] = useState('');
 	const characterLimit = 200;
 
@@ -18,7 +18,7 @@ const AddNote = ({ handleAddNote }) => {
 	};
 
 	return (
-		<div className='note new'>
+		<div style={{display: showInfo ? "flex" : "none"}} className='note new'>
 			<textarea
 				rows='8'
 				cols='10'
