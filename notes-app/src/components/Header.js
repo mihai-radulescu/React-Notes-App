@@ -4,9 +4,18 @@ const Header = () => {
 	return (
 		<div className='header'>
 			<h1>Notes</h1>
-			<button className='settings'>
-				Settings
-			</button>
+			<div>
+				<button className='navigation'>
+					Settings
+				</button>
+				<button className='navigation'>
+					Settings
+				</button>
+				<button className='navigation'>
+					Settings
+				</button>
+			</div>
+			
 		</div>
 	);
 };
