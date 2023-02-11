@@ -13,7 +13,7 @@ const Settings = () => {
     ];
 
     return (
-        <div>
+        <div className="container">
             <h1>Settings</h1>
             <NotesList notes={notes} handleAddNote={""} handleDeleteNote={""} showInfo={false}/>
         </div>

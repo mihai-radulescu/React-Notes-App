@@ -58,6 +58,8 @@ const MyNotes = () => {
 
     return (
         <div class='container'>
+            <h1>My Notes</h1>
+            
             <Search handleSearchNote={setSearchText} />
 
             <NotesList

@@ -4,9 +4,9 @@ import {
 	BrowserRouter as Router,
 	Routes,
 	Route,
-	Link
+	NavLink as Link
   } from "react-router-dom";
-  
+
 import AboutUs from '../pages/AboutUs';
 import MyNotes from '../pages/MyNotes';
 import Settings from '../pages/Settings';
@@ -15,11 +15,11 @@ const Header = () => {
 	return (
 		<Router>
 			<div className='header'>
-				<h1>Notes</h1>
+				<h1>Take Some Notes</h1>
 				<div>
-					<Link to='/' className='navigation'>My Notes</Link>
-					<Link to='/about' className='navigation'>About Us</Link>
-					<Link to='/settings' className='navigation'>Settings</Link>
+					<Link exact activeClassName='active' to='/' className='navigation'>My Notes</Link>
+					<Link activeClassName='active' to='/about' className='navigation'>About Us</Link>
+					<Link activeClassName='active' to='/settings' className='navigation'>Settings</Link>
 				</div>
 				
 			</div>

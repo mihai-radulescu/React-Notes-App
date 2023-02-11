@@ -19,7 +19,7 @@ const AboutUs = () => {
     ];
 
     return (
-        <div>
+        <div className="container">
             <h1>About Us</h1>
             <NotesList notes={notes} handleAddNote={""} handleDeleteNote={""} showInfo={false}/>
         </div>

@@ -1,9 +1,0 @@
-	<button className='navigation'>
-					Settings
-				</button>
-				<button className='navigation'>
-					Settings
-				</button>
-				<button className='navigation'>
-					Settings
-				</button>

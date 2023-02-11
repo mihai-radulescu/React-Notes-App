@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e1e1e1;
 }
 
 code {
@@ -51,7 +52,7 @@ code {
 .search {
 	display: flex;
 	align-items: center;
-	background-color: rgb(233, 233, 233);
+	background-color: #b3b3b3;
 	border-radius: 10px;
 	padding: 5px;
 	margin-bottom: 1.5em;
@@ -59,7 +60,7 @@ code {
 
 .search input {
 	border: none;
-	background-color: rgb(233, 233, 233);
+	background-color: #b3b3b3;
 	width: 100%;
 }
 
@@ -74,7 +75,7 @@ code {
 }
 
 .navigation {
-	background-color: #e1e1e1;
+	background-color: #b3b3b3;
 	border: none;
 	border-radius: 15px;
 	padding: 5px 10px 5px 10px;
@@ -85,8 +86,12 @@ code {
 }
 
 .navigation:hover {
-	background-color: #ededed;
+	background-color: #cccccc;
 	cursor: pointer;
+}
+
+.active {
+	background-color: #cccccc;
 }
 
 .note.new {
@@ -104,13 +109,13 @@ textarea:focus {
 }
 
 .save {
-	background-color: #e1e1e1;
+	background-color: #b3b3b3;
 	border: none;
 	border-radius: 15px;
 	padding: 5px 10px 5px 10px;
 }
 
 .save:hover {
-	background-color: #ededed;
+	background-color: #cccccc;
 	cursor: pointer;
 }
